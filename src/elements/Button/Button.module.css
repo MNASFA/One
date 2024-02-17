@@ -1,0 +1,12 @@
+.logout{
+    color: #ddd;
+    background-color: #FF4646;
+    width: 40%;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

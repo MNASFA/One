@@ -1,0 +1,43 @@
+
+.title{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.desc{
+    
+}
+.imageConatainer{
+    position: relative;
+    height: 350px;
+    margin: 15px 0;
+}
+.image{
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+.autour{
+    position: absolute;
+    padding: 7px 10px;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-primary);
+    color: #111;    
+    border-bottom-right-radius: 15px;
+    font-size: 12px;
+    font-weight: 800;
+    opacity: .75;
+}
+
+.text{
+    font-size: 18px;
+    line-height: 24px;
+    columns: 2;
+    text-align: justify;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 55%;
+    padding: 0 50px;
+}
+.right{
+    width: 45%;
+}
+.right .image{
+    width: 100%;
+}
+.input_contain{
+    width: 100%;
+    margin: 20px 0;
+}
+.label{
+    font-weight: bold;
+}
+.input_contain .input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid var(--color-primary);
+    background-color: transparent;
+}
+.input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--color-primary);
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-primary);
+    border: none;
+    border-style: none;
+    font-weight: bold;
+}
